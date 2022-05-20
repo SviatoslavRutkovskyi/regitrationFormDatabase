@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<?php
+include 'header.php';
 
-    <link href="style.css" rel="stylesheet" />
- 
 
-    <title>Registeration Page</title>
-  </head>
-  <body>
+?> 
+
+
     <div class = 'container'>
     <h1>Registeration</h1>
-    <form class="register-form" method="post" action="form.php">
+    <form class="register-form" method="POST" action="form.php">
 
       <p>Please enter your information below</p>
       <hr />
